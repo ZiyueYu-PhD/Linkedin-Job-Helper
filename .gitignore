@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ========================
+# 🔐 Sensitive files
+# ========================
+.env
+google_credentials.json
+linkedin_profile/
+
+# ========================
+# 📄 Personal / Data files
+# ========================
+*.pdf
+*.txt
+
+# ========================
+# 🧠 Python cache
+# ========================
+__pycache__/
+*.pyc
+
+# ========================
+# 🧪 Debug / temp
+# ========================
+debug_*.png
